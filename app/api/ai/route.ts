@@ -4,7 +4,7 @@ import { AIRescriptResult, AIHookEnhancement } from '@/lib/types';
 
 export const runtime = 'nodejs';
 
-const GEMINI_MODEL = 'gemini-2.5-flash';
+const GEMINI_MODEL = 'gemini-3.6-flash';
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
 
 export async function POST(req: NextRequest) {
